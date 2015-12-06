@@ -1,0 +1,10 @@
+http://www.instructables.com/id/Power-Over-Ethernet-PoE-Adapter/?ALLSTEPS
+
+Power over ethernet is viable for our application as long as the tether does not exceed approximately 5-10m. 
+This is unlikely but if required then application specific conductors must be considered.
+
+Power over ethernet will involve splicing both ends of the cable.
+
+Pin 4, 5, 7 and 8 are all reserved and availible to splice. 
+A standard 12V DC power brick can be used to provide power to the splice.
+Power will send supply to 5V and or 6V regulator for LED array and Motor circuits.
