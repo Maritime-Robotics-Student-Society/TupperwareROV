@@ -1,0 +1,31 @@
+CURRENTLY ATTEMPTING CONSTANT SERIAL READ FOR TOPSIDE CONTROL VIA KEYBOARD.
+
+
+void setup()
+{
+  // put setup code here, to run once:
+
+}
+
+void loop(){
+  if(Serial.available()){
+    incomingByte = Serial.read();
+    Serial.print("You sent something like...");
+    Serial.println(incomingByte, DEC);
+  
+  }
+  if(incomingByte < 117){
+    blinkspeed = blinkspeed - 100;
+  }
+  if(incomingByte > 117){
+    blinkspeed = blinkspeed + 100;
+  }
+  if(incomingByte = 117){
+    blinkspeed = blinkspeed;
+  }
+  digitalWrite(13, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(blinkspeed);              // wait for a second
+  digitalWrite(13, LOW);    // turn the LED off by making the voltage LOW
+  delay(blinkspeed);              // wait for a second
+  incomingByte = 117;
+}
