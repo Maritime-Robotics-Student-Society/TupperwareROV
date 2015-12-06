@@ -1,0 +1,11 @@
+http://www.ebay.co.uk/itm/like/331456046307?adgroupid=13585920426&hlpht=true&hlpv=2&rlsatarget=pla-131843274306&adtype=pla&ff3=1&lpid=122&poi=&ul_noapp=true&limghlpsr=true&device=c&chn=ps&campaignid=207297426&crdt=0&ff12=67&ff11=ICEP3.0.0-L&ff14=122&viphx=1&ops=true&ff13=80
+
+Example of the underwater adaptation of the popular arduino shield for ultrasonic rangefinder. 
+
+Cable will be mounted through Tupperware base using epoxy or resin. 
+
+Module requires 10 microsecond pulse to be sent to its trigger pin. 
+Releases 8 pulses and measures time of flight to determine distances.
+Averages and returns a distance. Blind below 5cm and maximum range is 50cm.
+Read from the ECHO pin. 
+
